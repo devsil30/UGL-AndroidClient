@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="100sp"
+    tools:context="edu.purdue.ugl.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Unified Group\nLife"
+        android:id="@+id/AppTitle"
+        android:gravity="center_horizontal"
+        android:textSize="35sp"
+        android:fontFamily="sans-serif-condensed" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login"
+        android:id="@+id/LoginButton"
+        android:onClick="showLoginDialog"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_alignParentBottom="true"
+        style="@style/button_text"
+        android:background="@drawable/holo_button" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/LoginButton"
+        android:text="@string/register"
+        android:id="@+id/Registerbutton"
+        android:onClick="showregisterDialog"
+        android:fontFamily="sans-serif-condensed"
+        style="@style/button_text"
+        android:background="@drawable/holo_button" />
+
+
+</RelativeLayout>

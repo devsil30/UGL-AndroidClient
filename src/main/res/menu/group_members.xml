@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.purdue.ugl.GroupMembers" >
+
+    <item android:id="@+id/doneeditprofile"
+        android:icon="@drawable/ic_action_add_person"
+        android:title="Add group members"
+        android:layout_alignParentLeft="true"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/canceleditprofile"
+        android:icon="@drawable/ic_action_cancel"
+        android:title="Remove group members"
+        android:layout_alignParentLeft="true"
+        android:showAsAction="ifRoom" />
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Unified Group Life</string>
+    <string name="action_settings">Settings</string>
+    <string name="username">Email Address</string>
+    <string name="password">Password</string>
+    <string name="rpassword">Confirm Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="registerw">Register with</string>
+    <string name="loginw">Login with</string>
+    <string name="name">Name</string>
+
+    <string-array name="account_types">
+        <item>Google</item>
+        <item>Facebook</item>
+        <item>Email Address</item>
+    </string-array>
+
+    <string name="cancel">Cancel</string>
+    <string name="sync">Sync</string>
+    <string name="title_activity_groups">Main Page</string>
+    <string name="title_activity_group_members">Group members</string>
+    <string name="title_activity_group_profile">Group profile</string>
+    <string name="title_activity_new_group">Create a new group</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_sticky_board">StickyBoard</string>
+    <string name="title_activity_item_bag">ItemBag</string>
+    <string name="title_activity_wallet">Wallet</string>
+    <string name="phone">Phone</string>
+    <string name="phonenumber">123-456-7890</string>
+    <string name="editprofile">Edit profile</string>
+    <string name="editgroupprofile">Edit group profile</string>
+    <string name="title_activity_edit_profile">Edit Profile</string>
+    <string name="manage_group_members">Manage group members</string>
+    <string name="title_activity_edit_group_profile">EditGroupProfile</string>
+    <string name="title_activity_manage_group_members">ManageGroupMembers</string>
+
+    <string-array name="group_status">
+        <item>Closed</item>
+        <item>Inactive</item>
+        <item>Private</item>
+        <item>Public</item>
+    </string-array>
+
+</resources>

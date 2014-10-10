@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomActionBarTheme"
+        parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/CustomActionBarTheme.ActionBarStyle</item>
+        <item name="android:titleTextStyle">@style/CustomActionBarTheme.MyActionBarTitleText</item>
+        <item name="android:actionOverflowButtonStyle">@style/CustomActionBarTheme.Overflow</item>
+       <!--
+        <item
+            name="android:windowTranslucentStatus">true</item>
+        <item
+            name="android:windowTranslucentNavigation">true</item>
+        -->
+    </style>
+
+    <style name="CustomActionBarTheme.ActionBarStyle"
+        parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">#33b5e5</item>
+        <item name="android:titleTextStyle">@style/CustomActionBarTheme.MyActionBarTitleText</item>
+        <item name="android:actionOverflowButtonStyle">@style/CustomActionBarTheme.Overflow</item>
+    </style>
+
+    <style name = "CustomActionBarTheme.MyActionBarTitleText"
+        parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="CustomActionBarTheme.Overflow">
+        <item name="android:src">@drawable/ic_action_overflow_dark</item>
+    </style>
+</resources>

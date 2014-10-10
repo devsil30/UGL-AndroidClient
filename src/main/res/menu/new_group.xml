@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.purdue.ugl.newGroup" >
+
+    <item android:id="@+id/newgroup"
+        android:icon="@drawable/ic_action_send_now_dark"
+        android:title="Create new group"
+        android:showAsAction="ifRoom" />
+</menu>

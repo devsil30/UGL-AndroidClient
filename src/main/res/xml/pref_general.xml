@@ -1,0 +1,9 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="example_checkbox"
+        android:title="@string/auto_join_group"
+        android:summary="@string/auto_join_group_description"
+        android:defaultValue="true" />
+
+</PreferenceScreen>
